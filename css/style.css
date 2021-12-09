@@ -1,0 +1,27 @@
+body {
+  color: #fff;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: #000;
+  font-weight: bolder;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+[class^="col"] {
+  background-color: dodgerblue;
+  border: 1px solid white;
+  height: 40px;
+  padding: 10px;
+}
+
+.nested {
+  margin: 0 2px;
+  background-color: #00e165;
+  height: 40px;
+  width: 100%;
+}
